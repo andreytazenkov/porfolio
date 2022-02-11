@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="/css/normalize.css?_v=20220201192608">
+   <link rel="stylesheet" href="/css/style.min.css?_v=20220201192608">
+</head>
+
+<body>
+   <div class="wrapper">
+
+      <!-- header -->
+      <header class="container">
+         <nav id="home" class="nav">
+            <ul class="nav-list">
+               <li class="nav-item"><a href="#home" class="nav-item__href" data-active="true">Home</a></li>
+               <li class="nav-item"><a href="#about" class="nav-item__href" data-active="">About me</a></li>
+               <li class="nav-item"><a href="#skills" class="nav-item__href" data-active="">Skills</a></li>
+               <li class="nav-item"><a href="#portfolio" class="nav-item__href" data-active="">Portfolio</a></li>
+               <li class="nav-item"><a href="#contacts" class="nav-item__href" data-active="">Contacts</a></li>
+            </ul>
+            <button class="nav-list-close">
+               <span class="nav-list-close__span"></span>
+            </button>
+         </nav>
+         <button class="nav-burger">
+            <span class="nav-burger__span"></span>
+            <span class="nav-burger__span"></span>
+            <span class="nav-burger__span"></span>
+         </button>
+      </header>
+      <div class="nav-sticy">
+         <ul class="nav-sticy-list">
+            <li class="nav-sticy-item nav-sticy-item-home"><a href="#home" class="nav-sticy-item__href">Home</a></li>
+            <li class="nav-sticy-item nav-sticy-item-about"><a href="#about" class="nav-sticy-item__href">About me</a></li>
+            <li class="nav-sticy-item nav-sticy-item-skills"><a href="#skills" class="nav-sticy-item__href">Skills</a></li>
+            <li class="nav-sticy-item nav-sticy-item-portfolio"><a href="#portfolio" class="nav-sticy-item__href">Portfolio</a></li>
+            <li class="nav-sticy-item nav-sticy-item-contacts"><a href="#contacts" class="nav-sticy-item__href">Contacts</a></li>
+         </ul>
+      </div>
+      <!-- name -->
+      <section>
+         <div class="name container">
+            <div class="name-content">
+               <h1 class="name-content__heading _anim-items _no-hide">Andrey T.</h1>
+               <p class="name-content__description _anim-items _no-hide">HTML-layout</p>
+               <div class="name-content__language _anim-items _no-hide">
+                  <input class="name-content__language-tag name-content__language-ru-input" type="checkbox" name="ru" id="ru">
+                  <label class="name-content__language-ru-label" for="ru" tabindex="0">
+                     RU
+                  </label>
+                  <span class="name-content__language-span"></span>
+                  <input class="name-content__language-tag name-content__language-eng-input" type="checkbox" name="eng" id="eng" checked>
+                  <label class="name-content__language-eng-label" for="eng" tabindex="0">
+                     ENG
+                  </label>
+               </div>
+            </div>
+            <picture>
+               <source srcset="/img/BSPP2266.webp" type="image/webp"><img class="name__img" src="/img/BSPP2266.png" alt="My photo">
+            </picture>
+         </div>
+      </section>
+
+      <!-- about me -->
+      <section>
+         <div class="about-me container" id="about">
+            <h2 class="about-me__heading heading _anim-items _no-hide">About me</h2>
+            <div class="about-me-text-wrapper">
+               <p class="about-me-text _anim-items _no-hide">Hello, I'm Andrey, a web developer from Russia.</p>
+            </div>
+            <div class="about-me-text-wrapper">
+               <p class="about-me-text _anim-items _no-hide">I am interested in frontend and everything related to it.</p>
+            </div>
+            <div class="about-me-text-wrapper">
+               <p class="about-me-text _anim-items _no-hide">I studied at Skillbox courses, etc.</p>
+            </div>
+            <div class="about-me-text-wrapper">
+               <p class="about-me-text _anim-items _no-hide">I am ready to implement great projects with wonderful people.</p>
+            </div>
+         </div>
+      </section>
+
+      <!-- skills -->
+      <section>
+         <div class="skills container" id="skills">
+            <h2 class="skills__heading heading _anim-items _no-hide">Skills</h2>
+            <p class="skills__text _anim-items _no-hide">I have the following skills.</p>
+            <ul class="skills__list">
+               <li class="skils-item">
+                  <div class="skill-wrapper _anim-items _no-hide">
+                     <div class="skill-wrapper__img skill-wrapper__img-html"></div>
+                     <p class="skill-wrapper__text">HTML</p>
+                  </div>
+               </li>
+               <li class="skils-item">
+                  <div class="skill-wrapper _anim-items _no-hide">
+                     <div class="skill-wrapper__img skill-wrapper__img-css"></div>
+                     <p class="skill-wrapper__text">CSS</p>
+                  </div>
+               </li>
+               <li class="skils-item">
+                  <div class="skill-wrapper _anim-items _no-hide">
+                     <div class="skill-wrapper__img skill-wrapper__img-js"></div>
+                     <p class="skill-wrapper__text">JavaScript</p>
+                  </div>
+               </li>
+               <li class="skils-item">
+                  <div class="skill-wrapper _anim-items _no-hide">
+                     <div class="skill-wrapper__img skill-wrapper__img-jquery"></div>
+                     <p class="skill-wrapper__text">Jquery</p>
+                  </div>
+               </li>
+               <li class="skils-item">
+                  <div class="skill-wrapper _anim-items _no-hide">
+                     <div class="skill-wrapper__img skill-wrapper__img-gulp"></div>
+                     <p class="skill-wrapper__text">Gulp</p>
+                  </div>
+               </li>
+               <li class="skils-item">
+                  <div class="skill-wrapper _anim-items _no-hide">
+                     <div class="skill-wrapper__img skill-wrapper__img-sass"></div>
+                     <p class="skill-wrapper__text">Sass</p>
+                  </div>
+               </li>
+               <li class="skils-item">
+                  <div class="skill-wrapper _anim-items _no-hide">
+                     <div class="skill-wrapper__img skill-wrapper__img-git"></div>
+                     <p class="skill-wrapper__text">Git</p>
+                  </div>
+               </li>
+               <li class="skils-item">
+                  <div class="skill-wrapper _anim-items _no-hide">
+                     <div class="skill-wrapper__img skill-wrapper__img-figma"></div>
+                     <p class="skill-wrapper__text">Figma</p>
+                  </div>
+               </li>
+               <li class="skils-item">
+                  <div class="skill-wrapper _anim-items _no-hide">
+                     <div class="skill-wrapper__img skill-wrapper__img-opencart"></div>
+                     <p class="skill-wrapper__text">Opencart</p>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </section>
+
+      <!-- portfolio -->
+      <section>
+         <div class="portfolio container" id="portfolio">
+            <h2 class="portfolio__heading heading _anim-items _no-hide">Portfolio</h2>
+            <picture>
+               <source srcset="./img/blanchart.webp" type="image/webp"><img class="portfolio__img portfolio__img_blanchart _anim-items _no-hide" src="./img/blanchart.png" alt="blanchart">
+            </picture>
+            <a href="/sytes/blancahrd/index.html" class="portfolio__href _anim-items _no-hide" target="blank">
+               more Blanchart</a>
+            <picture>
+               <source srcset="./img/dudushape.webp" type="image/webp"><img class="portfolio__img portfolio__img_dudushape _anim-items _no-hide" src="./img/dudushape.png" alt="dudushape">
+            </picture>
+            <a href="/sytes/dudushane/index.html" class="portfolio__href _anim-items _no-hide" target="blank">
+               more Dudushape</a>
+            <picture>
+               <source srcset="./img/cosmic.webp" type="image/webp"><img class="portfolio__img portfolio__img_cosmic _anim-items _no-hide" src="./img/cosmic.png" alt="cosmic">
+            </picture>
+            <a href="/sytes/cosmic/index.html" class="portfolio__href _anim-items _no-hide" target="blank">
+               more Cosmic landing page</a>
+            <picture>
+               <source srcset="./img/honey.webp" type="image/webp"><img class="portfolio__img portfolio__img_cosmic _anim-items _no-hide" src="./img/honey.png" alt="honey">
+            </picture>
+            <a href="/sytes/honey/index.html" class="portfolio__href _anim-items _no-hide" target="blank">
+               more Honey landing page</a>
+         </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="container" id="contacts">
+         <h2 class="footer-header heading _anim-items _no-hide">Contacts</h2>
+         <p class="footer-text _anim-items _no-hide">Want to know more or just chat?<span></span>You are welcome!</p>
+         <button class="footer-button-open-form _anim-items _no-hide" type="button">Send message</button>
+         <div class="footer-form-wrapper">
+            <form action="mail.php" class="footer-form" name="footer-form" enctype="multipart/form-data" method="POST">
+               <h3 class="footer-form-heading heading">Contact with me</h3>
+               <label class="footer-form-label" for="name">Enter your name</label>
+               <input class="footer-form-input" type="text" name="name" id="name" placeholder="Enter your name" required data-validate-field="name">
+               <label class="footer-form-label" for="phone">Enter your phone</label>
+               <input class="footer-form-input" type="tel" name="phone" id="phone" placeholder="Enter your phone" required data-validate-field="tel" data-validate-rules="phone">
+               <button class="footer-form-button" type="submit">Send</button>
+               <button class="footer-form-close" type="button">
+                  <span></span>
+               </button>
+            </form>
+         </div>
+         <div class="footer-form-thank-you-wrapper">
+            <div class="footer-form-thank-you">
+               <h3 class="footer-form-thank-you__heading heading">Thank you for your application,<span></span> I will contact you</h3>
+               <button class="footer-form-thank-you__close">
+                  <span></span>
+               </button>
+            </div>
+         </div>
+         <ul class="footer-contacts">
+            <li class="footer-contacts-item _anim-items _no-hide">
+               <a href="https://skobelkin.ru/whatsapp/9124810169?text=Enter+your+message" class="footer-contacts-item__href footer-contacts-item__href-whatsapp" target="blanck">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 26 26">
+                     <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                  </svg>
+               </a>
+            </li>
+            <li class="footer-contacts-item _anim-items _no-hide">
+               <a href="https://t.me/andrey_tazenkov" class="footer-contacts-item__href footer-contacts-item__href-telegram" target="blanck">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                     <path d="M25.154297 3.984375C24.829241 3.998716 24.526384 4.0933979 24.259766 4.2011719C24.010014 4.3016357 23.055766 4.7109106 21.552734 5.3554688C20.048394 6.0005882 18.056479 6.855779 15.931641 7.7695312C11.681964 9.5970359 6.9042108 11.654169 4.4570312 12.707031C4.3650097 12.746607 4.0439208 12.849183 3.703125 13.115234C3.3623292 13.381286 3 13.932585 3 14.546875C3 15.042215 3.2360676 15.534319 3.5332031 15.828125C3.8303386 16.121931 4.144747 16.267067 4.4140625 16.376953C5.3912284 16.775666 8.4218473 18.015862 8.9941406 18.25C9.195546 18.866983 10.29249 22.222526 10.546875 23.044922C10.714568 23.587626 10.874198 23.927519 11.082031 24.197266C11.185948 24.332139 11.306743 24.45034 11.453125 24.542969C11.511635 24.579989 11.575789 24.608506 11.640625 24.634766L11.644531 24.636719C11.659471 24.642719 11.67235 24.652903 11.6875 24.658203C11.716082 24.668202 11.735202 24.669403 11.773438 24.677734C11.925762 24.726927 12.079549 24.757812 12.216797 24.757812C12.80196 24.757814 13.160156 24.435547 13.160156 24.435547L13.181641 24.419922L16.191406 21.816406L19.841797 25.269531C19.893193 25.342209 20.372542 26 21.429688 26C22.057386 26 22.555319 25.685026 22.875 25.349609C23.194681 25.014192 23.393848 24.661807 23.478516 24.21875L23.478516 24.216797C23.557706 23.798129 26.921875 6.5273437 26.921875 6.5273438L26.916016 6.5507812C27.014496 6.1012683 27.040303 5.6826405 26.931641 5.2695312C26.822973 4.8564222 26.536648 4.4608905 26.181641 4.2480469C25.826669 4.0352506 25.479353 3.9700339 25.154297 3.984375 z M 24.966797 6.0742188C24.961997 6.1034038 24.970391 6.0887279 24.962891 6.1230469L24.960938 6.1347656L24.958984 6.1464844C24.958984 6.1464844 21.636486 23.196371 21.513672 23.845703C21.522658 23.796665 21.481573 23.894167 21.439453 23.953125C21.379901 23.91208 21.257812 23.859375 21.257812 23.859375L21.238281 23.837891L16.251953 19.121094L12.726562 22.167969L13.775391 17.96875C13.775391 17.96875 20.331562 11.182109 20.726562 10.787109C21.044563 10.471109 21.111328 10.360953 21.111328 10.251953C21.111328 10.105953 21.035234 10 20.865234 10C20.712234 10 20.506484 10.14875 20.396484 10.21875C18.963383 11.132295 12.671823 14.799141 9.8515625 16.439453C9.4033769 16.256034 6.2896636 14.981472 5.234375 14.550781C5.242365 14.547281 5.2397349 14.548522 5.2480469 14.544922C7.6958673 13.491784 12.47163 11.434667 16.720703 9.6074219C18.84524 8.6937992 20.838669 7.8379587 22.341797 7.1933594C23.821781 6.5586849 24.850125 6.1218894 24.966797 6.0742188 z" />
+                  </svg>
+               </a>
+            </li>
+            <li class="footer-contacts-item _anim-items _no-hide">
+               <a href="mailto:andrey.tasenkov.86@gmail.com" class="footer-contacts-item__href footer-contacts-item__href-gmail" target="blanck">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                     <path d="M6 7.03125C5.691406 7.03125 5.402344 7.089844 5.125 7.175781L8.039063 9.03125L23.960938 9.03125L26.875 7.175781C26.597656 7.089844 26.308594 7.03125 26 7.03125 Z M 4.113281 7.71875C3.4375 8.269531 3 9.097656 3 10.03125L3 23.03125C3 24.683594 4.347656 26.03125 6 26.03125L26 26.03125C27.652344 26.03125 29 24.683594 29 23.03125L29 10.03125C29 9.097656 28.5625 8.269531 27.886719 7.71875L16 15.28125 Z M 6 12.445313L16 18.8125L26 12.445313L26 24.03125L6 24.03125Z" />
+                  </svg>
+               </a>
+            </li>
+            <li class="footer-contacts-item _anim-items _no-hide">
+               <a href="tel:+79124810169" class="footer-contacts-item__href footer-contacts-item__href-tel" target="blanck">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24">
+                     <path d="M6.176 1.322l2.844-1.322 4.041 7.89-2.724 1.341c-.538 1.259 2.159 6.289 3.297 6.372.09-.058 2.671-1.328 2.671-1.328l4.11 7.932s-2.764 1.354-2.854 1.396c-7.862 3.591-19.103-18.258-11.385-22.281zm1.929 1.274l-1.023.504c-5.294 2.762 4.177 21.185 9.648 18.686l.971-.474-2.271-4.383-1.026.5c-3.163 1.547-8.262-8.219-5.055-9.938l1.007-.497-2.251-4.398z" />
+                  </svg>
+               </a>
+            </li>
+         </ul>
+      </footer>
+   </div>
+   <script src="./js/jquery.min.js?_v=20220201192608"></script>
+   <script src="./js/just-validate.min.js?_v=20220201192608"></script>
+   <script src="./js/inputmask.min.js?_v=20220201192608"></script>
+   <script src="./js/validate-mail.js?_v=20220201192608"></script>
+   <script src="./js/language.js?_v=20220201192608"></script>
+   <script src="./js/main.js?_v=20220201192608"></script>
+</body>
+
+</html>
